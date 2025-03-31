@@ -16,8 +16,10 @@ python skill_finetune.py \
     --cutoff_len 256 \
     --val_set_size 120 \
     --eval_step 80 \
-    --save_step 80
+    --save_step 80 \
+    --train_on_inputs 0 \
 
+#--data_path "data/skill_datasets/metamath_part*.json"
 # python skill_finetune.py \
 #     --model LLaMA-7B \
 #     --base_model yahma/llama-7b-hf \
